@@ -7,3 +7,5 @@ def Covert_to_HASH(password):
     hash_object.update(password.encode('utf-8'))
     hashed_password = hash_object.hexdigest()
     return hashed_password
+
+#just checking
